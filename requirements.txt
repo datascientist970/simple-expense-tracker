@@ -1,1 +1,4 @@
-# No external dependencies — Python standard library only.
+# The CLI (expense_tracker.py) needs only the Python standard library.
+# The MCP server (mcp_server.py) needs the official MCP Python SDK.
+# Pinned below 2.x because in mcp 2.x FastMCP was renamed to MCPServer.
+mcp>=1.0,<2
